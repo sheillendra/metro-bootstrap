@@ -1,0 +1,25 @@
+{
+	"name": "sheillendra/metro-bootstrap",
+	"description": "metro-bootstrap",
+	"keywords": ["bootstrap", "metro", "yii2","yii"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Nelson Reis",
+			"email": "nelsonfsr@gmail.com "
+		},
+		{
+			"name": "Guilherme Ferreira",
+			"email": "me@gsferreira.com"
+		}
+	],
+	"require": {
+		"twbs/bootstrap": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"sheillendra\\metrobootstrap\\": ""
+		}
+	}
+}
